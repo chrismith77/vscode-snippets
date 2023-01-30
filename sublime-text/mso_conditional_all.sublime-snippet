@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+    <![CDATA[
+<!--[if true]>
+$0
+<![endif]-->
+    ]]>
+  </content>
+  <tabTrigger>mso_conditional</tabTrigger>
+  <description>MSO conditional - All versions</description>
+</snippet>

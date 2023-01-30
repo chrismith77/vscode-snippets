@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+    <![CDATA[
+<% if ENV['BUILD_TYPE'] ${1:==} 'preview' %>
+  ${2:Content}$0
+<% end %>
+    ]]>
+  </content>
+  <tabTrigger>mm_if_preview</tabTrigger>
+  <description>Middleman conditional - If preview statement</description>
+</snippet>

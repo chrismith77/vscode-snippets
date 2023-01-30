@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+    <![CDATA[
+<% if ENV['BUILD_TYPE'] ${1:==} 'build' %>
+  ${2:Content}$0
+<% end %>
+    ]]>
+  </content>
+  <tabTrigger>mm_if_build</tabTrigger>
+  <description>Middleman conditional - If build statement</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+    <![CDATA[
+<!--[if false]><!-->
+$0
+<!--<![endif]-->
+    ]]>
+  </content>
+  <tabTrigger>!mso</tabTrigger>
+  <description>Non-MSO conditional</description>
+</snippet>

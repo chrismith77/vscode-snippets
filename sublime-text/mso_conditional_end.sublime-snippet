@@ -1,0 +1,13 @@
+<snippet>
+  <content>
+    <![CDATA[
+<!--[if true]>
+    </td>
+  </tr>
+</table>
+<![endif]-->
+    ]]>
+  </content>
+  <tabTrigger>mso_conditional_end</tabTrigger>
+  <description>MSO conditional - End table block</description>
+</snippet>

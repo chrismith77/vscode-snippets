@@ -1,0 +1,18 @@
+<snippet>
+  <content>
+    <![CDATA[
+# Date
+Current day:   %%xtday%%
+Current month: %%xtmonth%%
+Current year:  %%xtyear%%
+# Standard links
+View online:         %%view_email_url%%
+Forward to a friend: %%ftaf_url%%
+Subscription center: %%subscription_center_url%%
+Profile center:      %%profile_center_url%%
+Unsubscribe center:  %%unsub_center_url%%
+    ]]>
+  </content>
+  <tabTrigger>sfmc_strings_common</tabTrigger>
+  <description>SFMC personalization strings - Common strings</description>
+</snippet>

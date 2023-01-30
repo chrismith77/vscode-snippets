@@ -1,0 +1,15 @@
+<snippet>
+  <content>
+    <![CDATA[
+# Sender info
+Business name:    %%member_busname%%
+Physical address: %%member_addr%%
+                  %%member_city%%
+                  %%member_state%%
+                  %%member_postalcode%%
+                  %%member_country%%
+    ]]>
+  </content>
+  <tabTrigger>sfmc_strings_sender</tabTrigger>
+  <description>SFMC personalization strings - Sender info</description>
+</snippet>

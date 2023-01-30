@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+    <![CDATA[
+<p style="margin: 0 0 15px;">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis fermentum sapien vitae ultricies.
+</p>
+    ]]>
+  </content>
+  <tabTrigger>ipsum_small</tabTrigger>
+  <description>Single paragraph placeholder text</description>
+</snippet>

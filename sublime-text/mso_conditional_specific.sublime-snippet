@@ -1,0 +1,30 @@
+<snippet>
+  <content>
+    <![CDATA[
+<%#
+Options:
+Condition [
+  lt  = less than
+  gt  = greater than
+  lte = less than or equal to
+  gte = greater than or equal to
+]
+
+Outlook Versions [
+  9  = 2000
+  10 = 2002
+  11 = 2003
+  12 = 2007
+  14 = 2010
+  15 = 2013
+  16 = 2016+
+]
+%>
+<!--[if gte mso 12]>
+$0
+<![endif]-->
+    ]]>
+  </content>
+  <tabTrigger>mso_conditional_specific</tabTrigger>
+  <description>MSO conditional - Specific versions</description>
+</snippet>

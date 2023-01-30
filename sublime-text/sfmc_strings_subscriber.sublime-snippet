@@ -1,0 +1,12 @@
+<snippet>
+  <content>
+    <![CDATA[
+# Subscriber info
+Email address: %%emailaddr%%
+First name:    %firstname%%
+Last name:     %%lastname%%
+    ]]>
+  </content>
+  <tabTrigger>sfmc_strings_subscriber</tabTrigger>
+  <description>SFMC personalization strings - Subscriber strings</description>
+</snippet>

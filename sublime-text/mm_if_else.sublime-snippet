@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+    <![CDATA[
+<% if ${1:condition} && ${2:condition} ${3:!=} '${4:compare}' %><%= ${5:variable} %><% else %>${6:something}<% end %>
+    ]]>
+  </content>
+  <tabTrigger>mm_if_else</tabTrigger>
+  <description>Middleman conditional - If/else statement</description>
+</snippet>

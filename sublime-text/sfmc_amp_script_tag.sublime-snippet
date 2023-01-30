@@ -1,0 +1,12 @@
+<snippet>
+  <content>
+    <![CDATA[
+%%[/* AMPscript block title */]%%
+<script runat="server" language="ampscript">
+  $0
+</script>
+    ]]>
+  </content>
+  <tabTrigger>sfmc_amp_script_tag</tabTrigger>
+  <description>SFMC AMPscript - Script tag</description>
+</snippet>

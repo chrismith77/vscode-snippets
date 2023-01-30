@@ -1,0 +1,43 @@
+<snippet>
+  <content>
+    <![CDATA[
+<%
+  # Button sizes
+  btn_Width    = 200
+  btnFont_Size = 20 # Even numbers are preferable
+  # Aesthetics
+  btnBorder_Color     = data.config.branding.colors[0]
+  btnBorder_Radius    = 8 # The radius should not exceed 3/4 of the font size
+  btnBorder_Size      = 2
+  btnFont_Color       = data.config.branding.colors[0]
+  btnFont_LetterSpace = '0.05em'
+  btnFont_Transform   = 'uppercase' # Options [capitalize, lowercase, uppercase], or leave blank
+  btnFont_Weight      = 'normal' # Options [lighter, normal, bold, bolder, 100 - 900]
+  # Conditional styles
+  fontWeight = ''
+  textTransform = ''
+  if btnFont_Weight != 'normal'
+    fontWeight = 'font-weight: ' + btnFont_Weight + '; '
+  end
+  if btnFont_Transform != ''
+    textTransform = 'text-transform: ' + btnFont_Transform + '; '
+  end
+%>
+<!--[if true]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word", arcsize="<%= (btnBorder_Radius * 1.875).round %>%" filled="false" strokecolor="<%= btnBorder_Color %>" strokeweight="<%= btnBorder_Size %>px" style="width: <%= btn_Width - (btnBorder_Size * 2) %>px;">
+  <v:textbox inset="0, 0, 0, 0" style="mso-fit-shape-to-text: true;">
+    <center style="line-height: <%= (btnFont_Size * 1.65).round %>px;">
+<![endif]-->
+      <a class="cta-btn" href="#tbd" alias="" target="_blank" style="border: <%= btnBorder_Size %>px solid <%= btnBorder_Color %>; border-radius: <%= btnBorder_Radius %>px; box-sizing: border-box; color: <%= btnFont_Color %>; display: inline-block; font-size: <%= btnFont_Size %>px; <%= fontWeight %>letter-spacing: <%= btnFont_LetterSpace %>; line-height: 1; max-width: <%= btn_Width %>px; padding: <%= (btnFont_Size / 2).round - 2 %>px 0; text-decoration: none; <%= textTransform %>width: 100%; mso-border-alt: none; mso-padding-alt: 0; mso-text-raise: 2px;">
+        Button Text
+      </a>
+<!--[if true]>
+  </center>
+  </v:textbox>
+</v:roundrect>
+<![endif]-->
+    ]]>
+  </content>
+  <tabTrigger>mso_btn_ghost_rounded</tabTrigger>
+  <description>MSO button - Ghost rounded corners</description>
+</snippet>

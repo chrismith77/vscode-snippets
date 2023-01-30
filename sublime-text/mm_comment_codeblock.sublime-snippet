@@ -1,0 +1,18 @@
+<snippet>
+  <content>
+    <![CDATA[
+<%
+=begin
+%>
+  <% if 1 == 1 %>
+    Begin and End tags must not be indented.
+    This even comments out ERB tags.
+  <% end %>
+<%
+=end
+%>
+    ]]>
+  </content>
+  <tabTrigger>mm_comment_codeblock</tabTrigger>
+  <description>Middleman comment - Codeblock</description>
+</snippet>

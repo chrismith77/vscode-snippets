@@ -1,0 +1,669 @@
+{
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "Button - Standard": {
+    "prefix": "btn_standard",
+    "body": [
+      "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">",
+      "  <tr>",
+      "    <td class=\"cta-btn\" align=\"center\">",
+      "      <a href=\"#tbd\" alias=\"CTA_Btn\" target=\"_blank\" style=\"background-color: #ed553b; border: 1px solid #ed553b; color: #ffffff; display: inline-block; font-size: 14px; line-height: 1.2; padding: 12px 25px; text-decoration: none;\">",
+      "        <span class=\"btn-text\">",
+      "          Cta Button",
+      "        </span>",
+      "      </a>",
+      "    </td>",
+      "  </tr>",
+      "</table>"
+    ],
+    "description": "Button - Standard"
+  },
+
+  "Hybrid - 2 Column": {
+    "prefix": "hybrid_2",
+    "body": [
+      "<table class=\"block-class\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "  <tr>",
+      "    <td class=\"stack-wrapper\" align=\"center\">",
+      "      <!--[if true]>",
+      "      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">",
+      "        <tr>",
+      "          <td align=\"center\" valign=\"top\" style=\"width: 300px;\">",
+      "      <![endif]-->",
+      "            <div class=\"column\">",
+      "              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                <tr>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                </tr>",
+      "              </table>",
+      "            </div>",
+      "      <!--[if true]>",
+      "          </td>",
+      "          <td align=\"center\" valign=\"top\" style=\"width: 300px;\">",
+      "      <![endif]-->",
+      "            <div class=\"column\">",
+      "              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                <tr>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                </tr>",
+      "              </table>",
+      "            </div>",
+      "      <!--[if true]>",
+      "          </td>",
+      "        </tr>",
+      "      </table>",
+      "      <![endif]-->",
+      "    </td>",
+      "  </tr>",
+      "</table>"
+    ],
+    "description": "Hybrid - 2 Column"
+  },
+
+  "Hybrid - 3 Column": {
+    "prefix": "hybrid_3",
+    "body": [
+      "<table class=\"block-class\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "  <tr>",
+      "    <td class=\"stack-wrapper\" align=\"center\">",
+      "      <!--[if true]>",
+      "      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">",
+      "        <tr>",
+      "          <td align=\"center\" valign=\"top\" style=\"width: 200px;\">",
+      "      <![endif]-->",
+      "            <div class=\"column\">",
+      "              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                <tr>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                </tr>",
+      "              </table>",
+      "            </div>",
+      "      <!--[if true]>",
+      "          </td>",
+      "          <td align=\"center\" valign=\"top\" style=\"width: 200px;\">",
+      "      <![endif]-->",
+      "            <div class=\"column\">",
+      "              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                <tr>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                </tr>",
+      "              </table>",
+      "            </div>",
+      "      <!--[if true]>",
+      "          </td>",
+      "          <td align=\"center\" valign=\"top\" style=\"width: 200px;\">",
+      "      <![endif]-->",
+      "            <div class=\"column\">",
+      "              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                <tr>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                </tr>",
+      "              </table>",
+      "            </div>",
+      "      <!--[if true]>",
+      "          </td>",
+      "        </tr>",
+      "      </table>",
+      "      <![endif]-->",
+      "    </td>",
+      "  </tr>",
+      "</table>"
+    ],
+    "description": "Hybrid - 3 Column"
+  },
+
+  "Hybrid - 4 Column": {
+    "prefix": "hybrid_4",
+    "body": [
+      "<table class=\"block-class\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "  <tr>",
+      "    <td class=\"stack-wrapper\" align=\"center\">",
+      "      <!--[if true]>",
+      "      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">",
+      "        <tr>",
+      "          <td align=\"center\" valign=\"top\" style=\"width: 315px;\">",
+      "      <![endif]-->",
+      "            <div class=\"column\">",
+      "              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                <tr>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                  <td style=\"width: 10px;\">&nbsp;</td>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                </tr>",
+      "              </table>",
+      "            </div>",
+      "      <!--[if true]>",
+      "          </td>",
+      "          <td style=\"width: 10px;\">&nbsp;</td>",
+      "          <td align=\"center\" valign=\"top\" style=\"width: 315px;\">",
+      "      <![endif]-->",
+      "            <div class=\"column\">",
+      "              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                <tr>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                  <td style=\"width: 10px;\">&nbsp;</td>",
+      "                  <td align=\"center\">",
+      "                    Content",
+      "                  </td>",
+      "                </tr>",
+      "              </table>",
+      "            </div>",
+      "      <!--[if true]>",
+      "          </td>",
+      "        </tr>",
+      "      </table>",
+      "      <![endif]-->",
+      "    </td>",
+      "  </tr>",
+      "</table>"
+    ],
+    "description": "Hybrid - 4 Column"
+  },
+
+  "Image - Responsive": {
+    "prefix": "image_responsive",
+    "body": [
+      "<img src=\"https://via.placeholder.com/${1:640}x${2:200}/f5f5f5/cacaca?text=${1:640}+x+Variable\" alt=\"Image Alt\" width=\"${1:640}\" style=\"border: 0; display: block; margin: 0; max-width: ${1:640}px; width: 100%;\" />"
+    ],
+    "description": "Image - Responsive default"
+  },
+
+  "Link - Text": {
+    "prefix": "link_text",
+    "body": [
+      "<a href=\"#tbd\" alias=\"\" target=\"_blank\" style=\"color: #${1:cc0000}; text-decoration: none;\">${2:Link Text}</a>"
+    ],
+    "description": "Link - Text default"
+  },
+
+  "Lorem ipsum - Large": {
+    "prefix": "ipsum_large",
+    "body": [
+      "<p style=\"margin: 0 0 15px;\">",
+      "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis fermentum sapien vitae ultricies. Suspendisse sit amet arcu lacus. Aliquam mollis vitae enim vel facilisis. Pellentesque ultrices suscipit dolor, sed placerat ipsum placerat ac. Proin dictum in quam et gravida.",
+      "</p>",
+      "<p style=\"margin: 0 0 15px;\">",
+      "  Phasellus iaculis sapien id sapien faucibus, auctor aliquet justo pellentesque. In consequat sem at turpis luctus dictum. Donec sit amet mi ut neque porttitor iaculis. Ut tincidunt nisi pretium laoreet lobortis. Morbi vitae tellus eget risus bibendum vulputate at in purus. Duis fringilla tortor sit amet varius porta.",
+      "</p>"
+    ],
+    "description": "Double paragraph placeholder text"
+  },
+
+  "Lorem ipsum - Small": {
+    "prefix": "ipsum_small",
+    "body": [
+      "<p style=\"margin: 0 0 15px;\">",
+      "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis fermentum sapien vitae ultricies.",
+      "</p>"
+    ],
+    "description": "Single paragraph placeholder text"
+  },
+  
+  "Middleman comment - Codeblock": {
+    "prefix": "mm_comment_codeblock",
+    "body": [
+      "<%",
+      "=begin",
+      "%>",
+      "  <% if 1 == 1 %>",
+      "    Begin and End tags must not be indented.",
+      "    This even comments out ERB tags.",
+      "  <% end %>",
+      "<%",
+      "=end",
+      "%>"
+    ],
+    "description": "Middleman comment - Codeblock"
+  },
+  
+  "Middleman conditional - If build statement": {
+    "prefix": "mm_if_build",
+    "body": [
+      "<% if ENV['BUILD_TYPE'] ${1:==} 'build' %>",
+      "  ${2:Content}$0",
+      "<% end %>"
+    ],
+    "description": "Middleman conditional - If build statement"
+  },
+  
+  "Middleman conditional - If preview statement": {
+    "prefix": "mm_if_preview",
+    "body": [
+      "<% if ENV['BUILD_TYPE'] ${1:==} 'preview' %>",
+      "  ${2:Content}$0",
+      "<% end %>"
+    ],
+    "description": "Middleman conditional - If preview statement"
+  },
+
+  "Middleman conditional - If statement": {
+    "prefix": "mm_if",
+    "body": [
+      "<% if ${1:condition} && ${2:condition} ${3:!=} '${4:compare}' %><%= ${5:variable} %><% end %>"
+    ],
+    "description": "Middleman conditional - If statement"
+  },
+  
+  "Middleman conditional - If/else statement": {
+    "prefix": "mm_if_else",
+    "body": [
+      "<% if ${1:condition} && ${2:condition} ${3:!=} '${4:compare}' %><%= ${5:variable} %><% else %>${6:something}<% end %>"
+    ],
+    "description": "Middleman conditional - If/else statement"
+  },
+  
+  "Middleman variable": {
+    "prefix": "mm_var",
+    "body": [
+      "<%= ${1:variable} %>"
+    ],
+    "description": "Middleman variable"
+  },
+
+  "MSO background image": {
+    "prefix": "mso_bg_image",
+    "body": [
+      "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">",
+      "  <tr>",
+      "    <td class=\"bgImage-wrapper\" align=\"center\" background=\"${3:url}\" height=\"${2:400}\" valign=\"top\" style=\"background: url('${3:url}') top left / cover no-repeat #${4:000000}; background-size: cover; height: inherit; width: ${1:640}px;\">",
+      "      <!--[if true]>",
+      "        <v:image xmlns:v=\"urn:schemas-microsoft-com:vml\" fill=\"true\" stroke=\"false\" style=\"border: 0; display: inline-block; height: ${2:400}px; width: ${1:640}px;\" src=\"${3:url}\" />",
+      "          <v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" fill=\"true\" stroke=\"false\" style=\"border: 0; display: inline-block; height: ${2:400}px; position: absolute; width: ${1:640}px;\">",
+      "            <v:fill opacity=\"0%\" color=\"#${4:000000}\" />",
+      "              <v:textbox inset=\"0,0,0,0\">",
+      "      <![endif]-->",
+      "                <div>",
+      "                  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "                    <tr>",
+      "                      <td height=\"${2:400}\" align=\"center\" valign=\"middle\" style=\"height: ${2:400}px;\">",
+      "                        ${5:Content}$0",
+      "                      </td>",
+      "                    </tr>",
+      "                  </table>",
+      "                </div>",
+      "      <!--[if true]>",
+      "              </v:textbox>",
+      "            </v:fill>",
+      "          </v:rect>",
+      "        </v:image>",
+      "      <![endif]-->",
+      "    </td>",
+      "  </tr>",
+      "</table>"
+    ],
+    "description": "MSO background image"
+  },
+
+  "MSO button - Ghost pill shape": {
+    "prefix": "mso_btn_ghost_pill",
+    "body": [
+      "<%",
+      "  # Button sizes",
+      "  btn_Width    = 200",
+      "  btnFont_Size = 20 # Even numbers are preferable",
+      "  # Aesthetics",
+      "  btnBorder_Color     = data.config.branding.colors[0]",
+      "  btnBorder_Radius    = btnFont_Size + 2",
+      "  btnBorder_Size      = 2",
+      "  btnFont_Color       = data.config.branding.colors[0]",
+      "  btnFont_LetterSpace = '0.05em'",
+      "  btnFont_Transform   = 'uppercase' # Options [capitalize, lowercase, uppercase], or leave blank",
+      "  btnFont_Weight      = 'normal' # Options [lighter, normal, bold, bolder, 100 - 900]",
+      "  # Conditional styles",
+      "  fontWeight = ''",
+      "  textTransform = ''",
+      "  if btnFont_Weight != 'normal'",
+      "    fontWeight = 'font-weight: ' + btnFont_Weight + '; '",
+      "  end",
+      "  if btnFont_Transform != ''",
+      "    textTransform = 'text-transform: ' + btnFont_Transform + '; '",
+      "  end",
+      "%>",
+      "<!--[if true]>",
+      "<v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\", arcsize=\"50%\" filled=\"false\" strokecolor=\"<%= btnBorder_Color %>\" strokeweight=\"<%= btnBorder_Size %>px\" style=\"width: <%= btn_Width - (btnBorder_Size * 2) %>px;\">",
+      "  <v:textbox inset=\"0, 0, 0, 0\" style=\"mso-fit-shape-to-text: true;\">",
+      "    <center style=\"line-height: <%= btnFont_Size - 2 %>px;\">",
+      "<![endif]-->",
+      "      <a class=\"cta-btn\" href=\"#tbd\" alias=\"\" target=\"_blank\" style=\"border: <%= btnBorder_Size %>px solid <%= btnBorder_Color %>; border-radius: <%= btnBorder_Radius %>px; box-sizing: border-box; color: <%= btnFont_Color %>; display: inline-block; font-size: <%= btnFont_Size %>px; <%= fontWeight %>letter-spacing: <%= btnFont_LetterSpace %>; line-height: 1; max-width: <%= btn_Width %>px; padding: <%= (btnFont_Size / 2).round - 2 %>px 0; text-decoration: none; <%= textTransform %>width: 100%; mso-border-alt: none; mso-padding-alt: 0; mso-text-raise: -5px;\">",
+      "        Button Text",
+      "      </a>",
+      "<!--[if true]>",
+      "   </center>",
+      "  </v:textbox>",
+      "</v:roundrect>",
+      "<![endif]-->"
+    ],
+    "description": "MSO button - Ghost pill shape"
+  },
+
+  "MSO button - Ghost rounded corners": {
+    "prefix": "mso_btn_ghost_rounded",
+    "body": [
+      "<%",
+      "  # Button sizes",
+      "  btn_Width    = 200",
+      "  btnFont_Size = 20 # Even numbers are preferable",
+      "  # Aesthetics",
+      "  btnBorder_Color     = data.config.branding.colors[0]",
+      "  btnBorder_Radius    = 8 # The radius should not exceed 3/4 of the font size",
+      "  btnBorder_Size      = 2",
+      "  btnFont_Color       = data.config.branding.colors[0]",
+      "  btnFont_LetterSpace = '0.05em'",
+      "  btnFont_Transform   = 'uppercase' # Options [capitalize, lowercase, uppercase], or leave blank",
+      "  btnFont_Weight      = 'normal' # Options [lighter, normal, bold, bolder, 100 - 900]",
+      "  # Conditional styles",
+      "  fontWeight = ''",
+      "  textTransform = ''",
+      "  if btnFont_Weight != 'normal'",
+      "    fontWeight = 'font-weight: ' + btnFont_Weight + '; '",
+      "  end",
+      "  if btnFont_Transform != ''",
+      "    textTransform = 'text-transform: ' + btnFont_Transform + '; '",
+      "  end",
+      "%>",
+      "<!--[if true]>",
+      "<v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\", arcsize=\"<%= (btnBorder_Radius * 1.875).round %>%\" filled=\"false\" strokecolor=\"<%= btnBorder_Color %>\" strokeweight=\"<%= btnBorder_Size %>px\" style=\"width: <%= btn_Width - (btnBorder_Size * 2) %>px;\">",
+      "  <v:textbox inset=\"0, 0, 0, 0\" style=\"mso-fit-shape-to-text: true;\">",
+      "    <center style=\"line-height: <%= (btnFont_Size * 1.65).round %>px;\">",
+      "<![endif]-->",
+      "      <a class=\"cta-btn\" href=\"#tbd\" alias=\"\" target=\"_blank\" style=\"border: <%= btnBorder_Size %>px solid <%= btnBorder_Color %>; border-radius: <%= btnBorder_Radius %>px; box-sizing: border-box; color: <%= btnFont_Color %>; display: inline-block; font-size: <%= btnFont_Size %>px; <%= fontWeight %>letter-spacing: <%= btnFont_LetterSpace %>; line-height: 1; max-width: <%= btn_Width %>px; padding: <%= (btnFont_Size / 2).round - 2 %>px 0; text-decoration: none; <%= textTransform %>width: 100%; mso-border-alt: none; mso-padding-alt: 0; mso-text-raise: 2px;\">",
+      "        Button Text",
+      "      </a>",
+      "<!--[if true]>",
+      "   </center>",
+      "  </v:textbox>",
+      "</v:roundrect>",
+      "<![endif]-->"
+    ],
+    "description": "MSO button - Ghost rounded corners"
+  },
+
+  "MSO button - Solid pill shape": {
+    "prefix": "mso_btn_solid_pill",
+    "body": [
+      "<%",
+      "  # Button sizes",
+      "  btn_Width    = 200",
+      "  btnFont_Size = 20 # Even numbers are preferable",
+      "  # Aesthetics",
+      "  btnBg_Color         = data.config.branding.colors[0]",
+      "  btnBorder_Radius    = btnFont_Size + 2",
+      "  btnBorder_Size      = 2",
+      "  btnFont_Color       = data.config.branding.colors[4]",
+      "  btnFont_LetterSpace = '0.05em'",
+      "  btnFont_Transform   = 'uppercase' # Options [capitalize, lowercase, uppercase], or leave blank",
+      "  btnFont_Weight      = 'normal' # Options [lighter, normal, bold, bolder, 100 - 900]",
+      "  # Conditional styles",
+      "  fontWeight = ''",
+      "  textTransform = ''",
+      "  if btnFont_Weight != 'normal'",
+      "    fontWeight = 'font-weight: ' + btnFont_Weight + '; '",
+      "  end",
+      "  if btnFont_Transform != ''",
+      "    textTransform = 'text-transform: ' + btnFont_Transform + '; '",
+      "  end",
+      "%>",
+      "<!--[if true]>",
+      "<v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\", arcsize=\"50%\" fillcolor=\"<%= btnBg_Color %>\" strokecolor=\"<%= btnBg_Color %>\" strokeweight=\"<%= btnBorder_Size %>px\" style=\"width: <%= btn_Width - (btnBorder_Size * 2) %>px;\">",
+      "  <v:textbox inset=\"0, 0, 0, 0\" style=\"mso-fit-shape-to-text: true;\">",
+      "    <center style=\"line-height: <%= btnFont_Size - 2 %>px;\">",
+      "<![endif]-->",
+      "      <a class=\"cta-btn\" href=\"#tbd\" alias=\"\" target=\"_blank\" style=\"background-color: <%= btnBg_Color %>; border-radius: <%= btnBorder_Radius %>px; box-sizing: border-box; color: <%= btnFont_Color %>; display: inline-block; font-size: <%= btnFont_Size %>px; <%= fontWeight %>letter-spacing: <%= btnFont_LetterSpace %>; line-height: 1; max-width: <%= btn_Width %>px; padding: <%= (btnFont_Size / 2).round %>px 0; text-decoration: none; <%= textTransform %>width: 100%; mso-padding-alt: 0; mso-text-raise: -5px;\">",
+      "        ${3:Button Text}$0",
+      "      </a>",
+      "<!--[if true]>",
+      "   </center>",
+      "  </v:textbox>",
+      "</v:roundrect>",
+      "<![endif]-->"
+    ],
+    "description": "MSO button - Solid pill shape"
+  },
+
+  "MSO button - Solid rounded corners": {
+    "prefix": "mso_btn_solid_rounded",
+    "body": [
+      "<%",
+      "  # Button sizes",
+      "  btn_Width    = 200",
+      "  btnFont_Size = 20 # Even numbers are preferable",
+      "  # Aesthetics",
+      "  btnBg_Color         = data.config.branding.colors[0]",
+      "  btnBorder_Radius    = 8 # The radius should not exceed 3/4 of the font size",
+      "  btnBorder_Size      = 2",
+      "  btnFont_Color       = data.config.branding.colors[4]",
+      "  btnFont_LetterSpace = '0.05em'",
+      "  btnFont_Transform   = 'uppercase' # Options [capitalize, lowercase, uppercase], or leave blank",
+      "  btnFont_Weight      = 'normal' # Options [lighter, normal, bold, bolder, 100 - 900]",
+      "  # Conditional styles",
+      "  fontWeight = ''",
+      "  textTransform = ''",
+      "  if btnFont_Weight != 'normal'",
+      "    fontWeight = 'font-weight: ' + btnFont_Weight + '; '",
+      "  end",
+      "  if btnFont_Transform != ''",
+      "    textTransform = 'text-transform: ' + btnFont_Transform + '; '",
+      "  end",
+      "%>",
+      "<!--[if true]>",
+      "<v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\", arcsize=\"<%= (btnBorder_Radius * 1.875).round %>%\" fillcolor=\"<%= btnBg_Color %>\" strokecolor=\"<%= btnBg_Color %>\" strokeweight=\"<%= btnBorder_Size %>px\" style=\"width: <%= btn_Width - (btnBorder_Size * 2) %>px;\">",
+      "  <v:textbox inset=\"0, 0, 0, 0\" style=\"mso-fit-shape-to-text: true;\">",
+      "    <center style=\"line-height: <%= (btnFont_Size * 1.65).round %>px;\">",
+      "<![endif]-->",
+      "      <a class=\"cta-btn\" href=\"#tbd\" alias=\"\" target=\"_blank\" style=\"background-color: <%= btnBg_Color %>; border-radius: <%= btnBorder_Radius %>px; box-sizing: border-box; color: #ffffff; display: inline-block; font-size: <%= btnFont_Size %>px; <%= fontWeight %>letter-spacing: <%= btnFont_LetterSpace %>; line-height: 1; max-width: <%= btn_Width %>px; padding: <%= (btnFont_Size / 2).round %>px 0; text-decoration: none; <%= textTransform %>width: 100%; mso-padding-alt: 0; mso-text-raise: 2px;\">",
+      "        Button Text",
+      "      </a>",
+      "<!--[if true]>",
+      "   </center>",
+      "  </v:textbox>",
+      "</v:roundrect>",
+      "<![endif]-->"
+    ],
+    "description": "MSO button - Solid rounded corners"
+  },
+
+  "MSO conditional - All versions": {
+    "prefix": "mso_conditional",
+    "body": [
+      "<!--[if true]>",
+      "$0",
+      "<![endif]-->"
+    ],
+    "description": "MSO conditional - All versions"
+  },
+  
+  "MSO conditional - Specific versions": {
+    "prefix": "mso_conditional_specific",
+    "body": [
+      "<%#",
+      "  Options:",
+      "  Condition [",
+      "    lt  = less than",
+      "    gt  = greater than",
+      "    lte = less than or equal to",
+      "    gte = greater than or equal to",
+      "  ]",
+      "",
+      "  Outlook Versions [",
+      "    9  = 2000",
+      "    10 = 2002",
+      "    11 = 2003",
+      "    12 = 2007",
+      "    14 = 2010",
+      "    15 = 2013",
+      "    16 = 2016+",
+      "  ]",
+      "%>",
+      "<!--[if gte mso 12]>",
+      "$0",
+      "<![endif]-->"
+    ],
+    "description": "MSO conditional - Specific versions"
+  },
+
+  "MSO conditional - Start table block": {
+    "prefix": "mso_conditional_start",
+    "body": [
+      "<!--[if true]>",
+      "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">",
+      "  <tr>",
+      "    <td align=\"center\" style=\"padding: 0; width: ${1:640}px;\">",
+      "<![endif]-->"
+    ],
+    "description": "MSO conditional - Start table block"
+  },
+
+  "MSO conditional - End table block": {
+    "prefix": "mso_conditional_end",
+    "body": [
+      "<!--[if true]>",
+      "    </td>",
+      "  </tr>",
+      "</table>",
+      "<![endif]-->"
+    ],
+    "description": "MSO conditional - End table block"
+  },
+
+  "Non-MSO conditional": {
+    "prefix": "!mso",
+    "body": [
+      "<!--[if false]><!-->",
+      "$0",
+      "<!--<![endif]-->"
+    ],
+    "description": "Non-MSO conditional"
+  },
+
+  "SFMC AMPscript - Script tag": {
+    "prefix": "sfmc_amp_script_tag",
+    "body": [
+      "%%[/* AMPscript block title */]%%",
+      "<script runat=\"server\" language=\"ampscript\">",
+      "  $0",
+      "</script>",
+    ],
+    "description": "SFMC AMPscript - Script tag"
+  },
+  
+  "SFMC strings - Common": {
+    "prefix": "sfmc_strings_common",
+    "body": [
+      "# Date",
+      "Current day:   %%xtday%%",
+      "Current month: %%xtmonth%%",
+      "Current year:  %%xtyear%%",
+      "# Standard links",
+      "View online:         %%view_email_url%%",
+      "Forward to a friend: %%ftaf_url%%",
+      "Subscription center: %%subscription_center_url%%",
+      "Profile center:      %%profile_center_url%%",
+      "Unsubscribe center:  %%unsub_center_url%%",
+    ],
+    "description": "SFMC personalization strings - Common strings"
+  },
+  
+  "SFMC strings - Sender info": {
+    "prefix": "sfmc_strings_sender",
+    "body": [
+      "# Sender info",
+      "Business name:    %%member_busname%%",
+      "Physical address: %%member_addr%%",
+      "                  %%member_city%%",
+      "                  %%member_state%%",
+      "                  %%member_postalcode%%",
+      "                  %%member_country%%",
+    ],
+    "description": "SFMC personalization strings - Sender info"
+  },
+  
+  "SFMC strings - Subscriber info": {
+    "prefix": "sfmc_strings_subscriber",
+    "body": [
+      "# Subscriber info",
+      "Email address: %%emailaddr%%",
+      "First name:    %firstname%%",
+      "Last name:     %%lastname%%",
+    ],
+    "description": "SFMC personalization strings - Subscriber strings"
+  },
+
+  "Show and hide": {
+    "prefix": "show_hide",
+    "body": [
+      "<%# Desktop Content %>",
+      "<div class=\"desktop-content\" style=\"display: none; height: 0; overflow: hidden;\">",
+      "  <!-- dump whatever you need to show up on desktop in here | there's no need to style any of this content to try and hide it, the DIV takes care of that -->",
+      "</div>",
+      "<%# End Desktop Content %>",
+      "",
+      "<%# Mobile Content %>",
+      "<!--[if false]><!-->",
+      "<div class=\"mobile-content\">",
+      "  <!-- Dump whatever you need to show up on mobile in here -->",
+      "</div>",
+      "<!--<![endif]-->",
+      "<%# End Mobile Content %>"
+    ],
+    "description": "Show content on desktop and hide on mobile"
+  },
+
+  "Table - Fixed width": {
+    "prefix": "tbl",
+    "body": [
+      "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">",
+      "  <tr>",
+      "    <td align=\"center\" style=\"width: ${1:640}px;\">",
+      "      ${2:Contents}$0",
+      "    </td>",
+      "  </tr>",
+      "</table>"
+    ],
+    "description": "Table - Fixed width"
+  },
+
+  "Table - Full width": {
+    "prefix": "tbl%",
+    "body": [
+      "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">",
+      "  <tr>",
+      "    <td align=\"center\" style=\"padding: 0;\">",
+      "      ${1:Contents}$0",
+      "    </td>",
+      "  </tr>",
+      "</table>"
+    ],
+    "description": "Table - Full width"
+  },
+}

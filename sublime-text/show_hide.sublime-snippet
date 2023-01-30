@@ -1,0 +1,21 @@
+<snippet>
+  <content>
+    <![CDATA[
+<%# Desktop Content %>
+<div class="desktop-content" style="display: none; height: 0; overflow: hidden;">
+  <!-- dump whatever you need to show up on desktop in here | there's no need to style any of this content to try and hide it, the DIV takes care of that -->
+</div>
+<%# End Desktop Content %>
+
+<%# Mobile Content %>
+<!--[if false]><!-->
+<div class="mobile-content">
+  <!-- Dump whatever you need to show up on mobile in here -->
+</div>
+<!--<![endif]-->
+<%# End Mobile Content %>
+    ]]>
+  </content>
+  <tabTrigger>show_hide</tabTrigger>
+  <description>Show content on desktop and hide on mobile</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+    <![CDATA[
+<a href="#tbd" alias="" target="_blank" style="color: #${1:cc0000}; text-decoration: none;">${2:Link Text}</a>
+    ]]>
+  </content>
+  <tabTrigger>link_text</tabTrigger>
+  <description>Link - Text default</description>
+</snippet>

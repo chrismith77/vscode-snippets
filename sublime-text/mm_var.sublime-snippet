@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+    <![CDATA[
+<%= ${1:variable} %>
+    ]]>
+  </content>
+  <tabTrigger>mm_var</tabTrigger>
+  <description>Middleman variable</description>
+</snippet>
