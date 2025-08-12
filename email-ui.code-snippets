@@ -571,10 +571,20 @@
     "body": [
       "%%[/* AMPscript block title */]%%",
       "<script runat=\"server\" language=\"ampscript\">",
+      "  /* beautify ignore:start */",
       "  $0",
+      "  /* beautify ignore:end */",
       "</script>",
     ],
     "description": "SFMC AMPscript - Script tag"
+  },
+  
+  "SFMC AMPscript - Variable tag": {
+    "prefix": "sfmc_amp_var_tag",
+    "body": [
+      "%%=v($0)=%%",
+    ],
+    "description": "SFMC AMPscript - Variable tag"
   },
   
   "SFMC strings - Common": {
@@ -665,5 +675,10 @@
       "</table>"
     ],
     "description": "Table - Full width"
+  },
+
+  "Non-Breaking Hyphen": {
+    "prefix": "nbh",
+    "body": ["&#8209;"],
   },
 }
