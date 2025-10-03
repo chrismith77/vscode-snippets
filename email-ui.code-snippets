@@ -34,6 +34,30 @@
     "description": "Button - Standard"
   },
 
+  "GrizzlEmail - AMPscript Astro layout": {
+    "prefix": "amp_astro_layout",
+    "body": [
+      "---",
+      "// Utility imports",
+      "import { env } from '@utils/global-utils';",
+      "",
+      "// Component imports",
+      "import Ampscript from '@containers-comp/Ampscript.astro';",
+      "",
+      "const amp = `",
+      "\t/* beautify ignore:start */%%[",
+      "\t${1:AMPscript goes here}",
+      "\t]%%/* beautify ignore:end */",
+      "`",
+      "---",
+      "",
+      "{ env === 'sfmc' && `%%[/* ${2:Campaign Name} - AMPscript */]%%` }",
+      "<Ampscript>",
+      "\t<Fragment set:html={amp} />",
+      "</Ampscript>"
+    ],
+    "description": "AMPscript Beautify Ignore"
+  },
   "Hybrid - 2 Column": {
     "prefix": "hybrid_2",
     "body": [
