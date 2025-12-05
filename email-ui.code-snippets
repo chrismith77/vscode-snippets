@@ -56,8 +56,28 @@
       "\t<Fragment set:html={amp} />",
       "</Ampscript>"
     ],
-    "description": "AMPscript Beautify Ignore"
+    "description": "Standard setup for AMPscript in Astro layout"
   },
+
+  "GrizzlEmail - ExtraCSS Astro layout": {
+    "prefix": "extracss_astro_layout",
+    "body": [
+      "---",
+      "// Utility imports",
+      "import { isBuild } from '@utils/global-utils';",
+      "",
+      "// Component imports",
+      "import ExtraCss from '@css/extra-css/${1:File Path}-css.scss?inline';",
+      "import MsoCss from '@css/extra-css/${1:File Path}-css.scss?inline';",
+      "---",
+      "",
+      "{ isBuild && `%%[/* ${2:Campaign Name} - Extra CSS */]%%` }",
+      "<style set:html={`/* beautify ignore:start */\\n` + ExtraCss + `/* beautify ignore:end */`}></style>",
+      "<Fragment set:html={`<!-- mso-start -->\\n<!--[if true]>`} /><style set:html={`/* beautify ignore:start */\\n` + MsoCss + `/* beautify ignore:end */`}></style><Fragment set:html={`<![endif]-->\\n<!-- mso-end -->`} />"
+    ],
+    "description": "Standard setup for ExtraCSS in Astro layout"
+  },
+
   "Hybrid - 2 Column": {
     "prefix": "hybrid_2",
     "body": [
